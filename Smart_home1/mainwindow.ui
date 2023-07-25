@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>923</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/res/home_background.png);</string>
+       </property>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>250</y>
+          <width>131</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+font: 12pt &quot;华文琥珀&quot;;
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.173684 rgba(37, 121, 247, 255), stop:1 rgba(255, 255, 255, 255));
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QPushButton:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+        </property>
+        <property name="text">
+         <string>全屋控制</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>250</y>
+          <width>131</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+font: 12pt &quot;华文琥珀&quot;;
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.173684 rgba(37, 121, 247, 255), stop:1 rgba(255, 255, 255, 255));
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QPushButton:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+        </property>
+        <property name="text">
+         <string>媒体播放</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>250</y>
+          <width>131</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+font: 12pt &quot;华文琥珀&quot;;
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.173684 rgba(37, 121, 247, 255), stop:1 rgba(255, 255, 255, 255));
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QPushButton:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+        </property>
+        <property name="text">
+         <string>视频监控</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>100</y>
+          <width>351</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 18px;
+    color: #BDC8E2;
+    font-style: normal;
+    font-weight: normal;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: aqua;
+    border-radius: 20px;
+
+    padding-left: 20px;
+    padding-top: 0px;
+
+    background-image: url(&quot;./image.png&quot;);
+    background-color: #2E3648;
+    background-repeat: no-repeat;
+    background-position: left center;
+}</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt;&quot;&gt; 主界面&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>30</y>
+          <width>191</width>
+          <height>491</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 18px;
+    color: #BDC8E2;
+    font-style: normal;
+    font-weight: normal;</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>680</x>
+          <y>0</y>
+          <width>201</width>
+          <height>33</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="pushButton_weather">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+font: 12pt &quot;华文琥珀&quot;;
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.173684 rgba(37, 121, 247, 255), stop:1 rgba(255, 255, 255, 255));
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QPushButton:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+           </property>
+           <property name="text">
+            <string>获取天气</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox">
+           <property name="styleSheet">
+            <string notr="true">QComboBox {
+font: 12pt &quot;华文琥珀&quot;;
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.173684 rgba(37, 121, 247, 255), stop:1 rgba(255, 255, 255, 255));
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QComboBox:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>长沙</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>深圳</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>北京</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>广州</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>上海</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_home">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: 12pt &quot;华文琥珀&quot;;
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QPushButton:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+      </property>
+      <property name="text">
+       <string>home</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>923</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

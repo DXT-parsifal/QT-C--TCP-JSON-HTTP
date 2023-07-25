@@ -1,0 +1,27 @@
+#ifndef TEMPERATURE_HUMIDITY_H
+#define TEMPERATURE_HUMIDITY_H
+
+#include <QWidget>
+
+namespace Ui {
+class temperature_humidity;
+}
+
+class temperature_humidity : public QWidget
+{
+    Q_OBJECT
+
+public:
+    explicit temperature_humidity(QWidget *parent = nullptr);
+    ~temperature_humidity();
+
+    void change_value_temperature(QString);//改变远程温度
+    void change_value_humidity(QString);//改变远程湿度
+signals:
+    void value_change(QString,double);//温湿度改变信号
+
+private:
+    Ui::temperature_humidity *ui;
+};
+
+#endif // TEMPERATURE_HUMIDITY_H

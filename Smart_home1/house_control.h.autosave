@@ -1,0 +1,42 @@
+#ifndef HOUSE_CONTROL_H
+#define HOUSE_CONTROL_H
+
+#include <QWidget>
+#include <QTcpSocket>
+#include <QHostAddress>
+namespace Ui {
+class house_control;
+}
+
+class house_control : public QWidget
+{
+    Q_OBJECT
+
+public:
+    explicit house_control(QWidget *parent = nullptr);
+    ~house_control();
+
+    void fan_change(QString,QString);//风扇改变
+    void light_change(QString,QString);//灯光改变
+
+    void control(QString);//读取到服务端的状态改变，控制本地状态
+
+    QString get_port();//获取端口
+    QString get_ip();//获取ip地址
+    void stop();//客户端关闭
+public:
+    QTcpSocket *m_tcp;//客户端套接字
+    int connect_state;//连接状态
+signals:
+    void change_video(int);//远程打开
+    void tochange_video(int);//打开远程
+private slots:
+    void on_pushButton_server_connect_clicked();//连接服务器按钮槽函数
+
+    void on_pushButton_disconnect_clicked();//断开连接服务器槽函数
+
+private:
+    Ui::house_control *ui;
+};
+
+#endif // HOUSE_CONTROL_H

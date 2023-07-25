@@ -1,0 +1,59 @@
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+#include <QPushButton>
+#include "house_control.h"
+#include "media_playback.h"
+#include "video_monitor.h"
+
+#include <QSslSocket>
+#include <QNetworkAccessManager>
+#include <QNetworkReply>
+
+#include <QMessageBox>
+
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonArray>
+#include <QJsonValue>
+QT_BEGIN_NAMESPACE
+namespace Ui { class MainWindow; }
+QT_END_NAMESPACE
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    MainWindow(QWidget *parent = nullptr);
+    ~MainWindow();
+
+    house_control *tabWidget_control;//全屋控制界面
+    media_playback *media_play;//媒体播放界面
+    Video_monitor *video_monitor;//视频监控界面
+    //网络管理对象
+    QNetworkAccessManager *http;
+    //服务响应
+    QNetworkReply *replay;//一个抽象类
+    //城市id map
+    QMap<QString,QString> m_city;
+
+public:
+    int flag;//返回键
+
+private slots:
+    void on_pushButton_2_clicked();//全屋控制
+
+    void on_pushButton_3_clicked();//多媒体
+
+    void slot_btn_request();//天气请求URL get
+    void slots_http_finshed(QNetworkReply *reply);//请求回复读取JSON
+
+
+    void on_pushButton_4_clicked();//视频监控
+
+private:
+    Ui::MainWindow *ui;
+};
+#endif // MAINWINDOW_H

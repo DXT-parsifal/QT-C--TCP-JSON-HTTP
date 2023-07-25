@@ -1,0 +1,53 @@
+#ifndef VIDEO_MONITOR_H
+#define VIDEO_MONITOR_H
+
+#include <QWidget>
+#include <QCameraInfo>
+#include <QCameraImageCapture>
+#include <QPixmap>
+#include <QFileDialog>
+
+namespace Ui {
+class Video_monitor;
+}
+
+class Video_monitor : public QWidget
+{
+    Q_OBJECT
+
+public:
+    explicit Video_monitor(QWidget *parent = nullptr);
+    ~Video_monitor();
+
+    void change_state(int);//改变远程状态
+public:
+    QCamera *m_Camera;//摄像头对象
+    QCameraImageCapture *m_imageCapture;//实例化媒体记录类对象
+    QPixmap Pixmap;//播放图片
+
+    int flag;
+
+signals:
+    void state_change(int);//摄像头打开关闭
+private slots:
+    void on_pushButton_open_clicked();//打开摄像头
+
+    void on_pushButton_close_clicked();//关闭摄像头
+
+    void on_pushButton_image_clicked();//拍照
+
+    void displayImage(int,QImage);//拍了一张照片信号
+
+    void on_pushButton_save_clicked();//照片保存
+
+    void on_pushButton_clicked();//打开远程摄像头
+
+    void on_pushButton_2_clicked();//关闭远程摄像头
+
+    void on_pushButton_3_clicked();//远程摄像头拍照
+
+private:
+    Ui::Video_monitor *ui;
+};
+
+#endif // VIDEO_MONITOR_H

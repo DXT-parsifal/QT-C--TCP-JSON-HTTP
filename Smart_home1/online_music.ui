@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>online_music</class>
+ <widget class="QWidget" name="online_music">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>870</width>
+    <height>567</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">    background-color: qlineargradient(spread:pad, x1:0.163053, y1:0.239, x2:1, y2:1, stop:0 rgba(153, 102, 255, 255), stop:0.768421 rgba(235, 148, 61, 255), stop:1 rgba(221, 79, 0, 255));
+    background-repeat: no-repeat;
+    background-position: left center;</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>70</y>
+        <width>181</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+font: 12pt &quot;华文琥珀&quot;;
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QLabel:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Online music&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>200</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+font: 12pt &quot;华文琥珀&quot;;
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QLineEdit:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>200</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: 12pt &quot;华文琥珀&quot;;
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QPushButton:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+      </property>
+      <property name="text">
+       <string>搜索</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_begin">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>290</y>
+        <width>112</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: 12pt &quot;华文琥珀&quot;;
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QPushButton:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>120</y>
+        <width>301</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>0</y>
+        <width>191</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font: 12pt &quot;华文琥珀&quot;;
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QLabel:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+         </property>
+         <property name="text">
+          <string>播放历史</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>360</y>
+        <width>761</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QTextEdit" name="textEdit_2">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'SimSun'; font-size:16pt; font-weight:600;&quot;&gt;语音助手&lt;/span&gt;&lt;span style=&quot; font-family:'SimSun';&quot;&gt;使用说明：&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'SimSun';&quot;&gt;搜索音乐&lt;/span&gt;&lt;img src=&quot;file:///C:\WINDOWS\TEMP\SGPicFaceTpBq\18804\39434F53.png&quot; /&gt;&lt;span style=&quot; font-family:'SimSun';&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','PingFang SC','Hiragino Sans GB','STHeiti','Microsoft YaHei','WenQuanYi Micro Hei','sans-serif','noto-fanyi'; font-size:24px; color:#333333;&quot;&gt;Please say: 音乐名&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'SimSun';&quot;&gt;全屋控制&lt;/span&gt;&lt;img src=&quot;file:///C:\WINDOWS\TEMP\SGPicFaceTpBq\18804\3944AC24.png&quot; /&gt;&lt;span style=&quot; font-family:'SimSun';&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','PingFang SC','Hiragino Sans GB','STHeiti','Microsoft YaHei','WenQuanYi Micro Hei','sans-serif','noto-fanyi'; font-size:24px; color:#333333;&quot;&gt;Please say:（厨房，书房，次卧1，次卧2，主卧，大厅，卫生间）+（灯，风，空调，温湿度）+（开关）&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_video">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+font: 12pt &quot;华文琥珀&quot;;
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}
+QPushButton:hover { font: 9pt &quot;华文琥珀&quot;;}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

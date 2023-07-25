@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>house_control</class>
+ <widget class="QWidget" name="house_control">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>973</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget_20" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="temperature_humidity" name="widget_19" native="true">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>290</y>
+        <width>91</width>
+        <height>101</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="fan_switch" name="widget_10" native="true">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>70</y>
+        <width>61</width>
+        <height>80</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line_15">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>250</y>
+        <width>21</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>30</y>
+        <width>68</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 14px;
+    color: #BDC8E2;
+    background-color: #2E3648;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;餐厅&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="light_switch" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>100</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>430</y>
+        <width>761</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_11">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>20</y>
+        <width>16</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>3</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="fan_switch" name="widget_16" native="true">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>310</y>
+        <width>61</width>
+        <height>80</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>410</y>
+        <width>68</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 14px;
+    color: #BDC8E2;
+    background-color: #2E3648;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;书房&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_13">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>150</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_16">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>220</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>3</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="light_switch" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>80</y>
+        <width>51</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line_14">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>250</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_4">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>10</y>
+        <width>51</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="fan_switch" name="widget_13" native="true">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>70</y>
+        <width>61</width>
+        <height>80</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line_22">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>230</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>3</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="light_switch" name="widget_5" native="true">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>70</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line_6">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>10</y>
+        <width>20</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>3</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="fan_switch" name="widget_14" native="true">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>80</y>
+        <width>61</width>
+        <height>80</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="light_switch" name="widget_9" native="true">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>320</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line_12">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>200</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>30</y>
+        <width>68</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 14px;
+    color: #BDC8E2;
+    background-color: #2E3648;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;厨房&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_8">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>31</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>3</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="light_switch" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>80</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line_9">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>270</y>
+        <width>111</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>3</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="temperature_humidity" name="widget_18" native="true">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>280</y>
+        <width>91</width>
+        <height>101</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line_10">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>270</y>
+        <width>111</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>3</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>60</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="whatsThis">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#aaffff;&quot;&gt;楼道&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 14px;
+    color: #BDC8E2;
+    background-color: #2E3648;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'SimSun';&quot;&gt;楼道&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="light_switch" name="widget_6" native="true">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>80</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="light_switch" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>70</y>
+        <width>51</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="fan_switch" name="widget_17" native="true">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>310</y>
+        <width>61</width>
+        <height>80</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="fan_switch" name="widget_15" native="true">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>300</y>
+        <width>61</width>
+        <height>80</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line_18">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>150</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_17">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>250</y>
+        <width>21</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="fan_switch" name="widget_12" native="true">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>60</y>
+        <width>61</width>
+        <height>80</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line_19">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>140</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>30</y>
+        <width>68</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 14px;
+    color: #BDC8E2;
+    background-color: #2E3648;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;卫生间&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>30</y>
+        <width>68</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 14px;
+    color: #BDC8E2;
+    background-color: #2E3648;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;次卧1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="light_switch" name="widget_8" native="true">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>320</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="light_switch" name="widget_7" native="true">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>310</y>
+        <width>71</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="fan_switch" name="widget_11" native="true">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>70</y>
+        <width>61</width>
+        <height>80</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>761</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_21">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>140</y>
+        <width>41</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_7">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>10</y>
+        <width>20</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>3</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>41</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_20">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>160</y>
+        <width>121</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>30</y>
+        <width>68</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 14px;
+    color: #BDC8E2;
+    background-color: #2E3648;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;次卧2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>400</y>
+        <width>68</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 14px;
+    color: #BDC8E2;
+    background-color: #2E3648;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;主卧&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>200</y>
+        <width>68</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 14px;
+    color: #BDC8E2;
+    background-color: #2E3648;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;走廊&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>400</y>
+        <width>68</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-family: &quot;Microsoft YaHei&quot;;
+    font-size: 14px;
+    color: #BDC8E2;
+    background-color: #2E3648;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;大厅&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_5">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>20</y>
+        <width>20</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="lineWidth">
+       <number>3</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>20</y>
+        <width>121</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_11">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font: 12pt &quot;华文琥珀&quot;;
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.173684 rgba(37, 121, 247, 255), stop:1 rgba(255, 255, 255, 255));
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;全&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_12">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font: 12pt &quot;华文琥珀&quot;;
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.173684 rgba(37, 121, 247, 255), stop:1 rgba(255, 255, 255, 255));
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;屋&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_14">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font: 12pt &quot;华文琥珀&quot;;
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.173684 rgba(37, 121, 247, 255), stop:1 rgba(255, 255, 255, 255));
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;控&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font: 12pt &quot;华文琥珀&quot;;
+color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0.173684 rgba(37, 121, 247, 255), stop:1 rgba(255, 255, 255, 255));
+border-style: outset;            /* 边框风格 */
+border-width: 2px;               /* 边框宽度 */
+border-radius: 5px;              /* 边框圆角 */
+border-color: #8B7355;           /* 边框颜色 */}</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;制&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>480</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="text">
+       <string>端口号</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_port">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>480</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>20000</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_server_connect">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>480</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>连接服务器</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>480</y>
+        <width>191</width>
+        <height>87</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lab_stat">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>540</y>
+        <width>68</width>
+        <height>15</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>510</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="text">
+       <string>ip地址</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_ip">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>510</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>192.168.0.37</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_disconnect">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>510</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>断开连接</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>light_switch</class>
+   <extends>QWidget</extends>
+   <header>light_switch.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>fan_switch</class>
+   <extends>QWidget</extends>
+   <header>fan_switch.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>temperature_humidity</class>
+   <extends>QWidget</extends>
+   <header>temperature_humidity.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

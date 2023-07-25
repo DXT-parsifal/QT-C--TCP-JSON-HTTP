@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/智能家居3.png</file>
+        <file>res/灯开.png</file>
+        <file>res/灯关.png</file>
+        <file>res/关.png</file>
+        <file>res/开.png</file>
+        <file>res/电风扇关.png</file>
+        <file>res/风扇开.png</file>
+        <file>res/温度湿度气压.png</file>
+        <file>res/home_background.png</file>
+        <file>res/house_control.jpg</file>
+        <file>res/media_player.jpg</file>
+        <file>res/online_player.gif</file>
+        <file>res/机器人.png</file>
+        <file>res/机器人_speak.png</file>
+    </qresource>
+    <qresource prefix="/media">
+        <file>res/media/GTA-V.mp4</file>
+        <file>res/media/平凡之路-朴树.mp3</file>
+        <file>res/media/尚好的青春-孙燕姿.mp3</file>
+        <file>res/media/一路逆风-邓紫棋.mp3</file>
+        <file>res/Player, pause.png</file>
+        <file>res/Player, play.png</file>
+        <file>res/media/桃花落.m4a</file>
+        <file>res/media/画.mp3</file>
+        <file>res/media/不要说话.m4a</file>
+        <file>res/media/反方向的钟 .mp4</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,27 @@
+#ifndef LIGHT_SWITCH_H
+#define LIGHT_SWITCH_H
+
+#include <QWidget>
+
+namespace Ui {
+class light_switch;
+}
+
+class light_switch : public QWidget
+{
+    Q_OBJECT
+
+public:
+    explicit light_switch(QWidget *parent = nullptr);
+    ~light_switch();
+
+    void change_state(int);//远程控制
+signals:
+    void state_change(QString );//状态改变信号
+public:
+    int flag;//灯光按钮标志
+private:
+    Ui::light_switch *ui;
+};
+
+#endif // LIGHT_SWITCH_H
